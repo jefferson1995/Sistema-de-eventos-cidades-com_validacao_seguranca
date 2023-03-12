@@ -21,4 +21,14 @@ public class EventService {
 		Page<Event> list = repository.findAll(pageable);
 		return list.map(x -> new EventDTO(x));
 	}
+	
+	@Transactional
+	public EventDTO insert(EventDTO dto) {
+		Event entity = new Event();
+		entity.setName(dto.getName());
+		entity.setDate(dto.getDate());
+		entity.setUrl(dto.getUrl());
+		entity = repository.save(entity);
+		return new EventDTO(entity);
+	}
 }
