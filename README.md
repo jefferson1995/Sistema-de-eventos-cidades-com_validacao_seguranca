@@ -18,7 +18,7 @@ Validações de Event:
 
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/jefferson1995/Assets/raw/main/bds04_validacao_seguranca/diagrama.png)
+![Modelo Conceitual](https://github.com/jefferson1995/bds04_validacao_seguranca/blob/main/Assets/diagrama.png)
 
 
 # Tecnologias utilizadas
